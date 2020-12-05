@@ -20,6 +20,11 @@ public:
 
 private:
     Ui::DecodificadorDlg *ui;
+    bool using5bands = true;
+
+    void initialize_colorcombos();
+    void bands_changed();
+
 };
 
 #endif //PROYECTORESISTENCIAS_DECOD_H
