@@ -23,6 +23,7 @@ private:
 
 protected:
     void mostrarDecodificador();
+    void mostrarCodificador();
 };
 
 #endif //PROYECTORESISTENCIAS_MAINWINDOW_H
