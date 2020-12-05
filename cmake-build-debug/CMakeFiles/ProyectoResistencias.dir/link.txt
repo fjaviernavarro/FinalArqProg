@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ProyectoResistencias.dir/main.cpp.o  -o ProyectoResistencias 

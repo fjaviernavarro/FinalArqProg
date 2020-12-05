@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="KColorCombo" name="kcolorcombo4">
+   <property name="geometry">
+    <rect>
+     <x>233</x>
+     <y>60</y>
+     <width>57</width>
+     <height>32</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="KColorCombo" name="kcolorcombo5">
+   <property name="geometry">
+    <rect>
+     <x>296</x>
+     <y>60</y>
+     <width>57</width>
+     <height>32</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="KColorCombo" name="kcolorcombo1">
+   <property name="geometry">
+    <rect>
+     <x>44</x>
+     <y>60</y>
+     <width>57</width>
+     <height>32</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="KColorCombo" name="kcolorcombo2">
+   <property name="geometry">
+    <rect>
+     <x>107</x>
+     <y>60</y>
+     <width>57</width>
+     <height>32</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber">
+   <property name="geometry">
+    <rect>
+     <x>113</x>
+     <y>136</y>
+     <width>161</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton4B">
+   <property name="geometry">
+    <rect>
+     <x>93</x>
+     <y>16</y>
+     <width>105</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>4 Bandas</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton5B">
+   <property name="geometry">
+    <rect>
+     <x>223</x>
+     <y>16</y>
+     <width>105</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>5 Bandas</string>
+   </property>
+  </widget>
+  <widget class="KColorCombo" name="kcolorcombo3">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>60</y>
+     <width>57</width>
+     <height>32</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>KColorCombo</class>
+   <extends>QComboBox</extends>
+   <header>kcolorcombo.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
