@@ -6,14 +6,56 @@
 
 #IncludeRegexTransform: 
 
+../Decodificador.h
+QDialog
+-
+
+../MainWindow.h
+QMainWindow
+-
+
+/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decodificador.h
+QDialog
+-
+
 /home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/MainWindow.cpp
 MainWindow.h
 /home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/MainWindow.h
 ./ui_MainWindow.h
 /home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/ui_MainWindow.h
+Decodificador.h
+/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decodificador.h
 
 /home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/MainWindow.h
 QMainWindow
+-
+
+/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/DecodificadorResistencias_autogen/EWIEGA46WW/moc_Decodificador.cpp
+Decodificador.h
+/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/DecodificadorResistencias_autogen/EWIEGA46WW/Decodificador.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/DecodificadorResistencias_autogen/EWIEGA46WW/moc_MainWindow.cpp
+MainWindow.h
+/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/DecodificadorResistencias_autogen/EWIEGA46WW/MainWindow.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/DecodificadorResistencias_autogen/mocs_compilation.cpp
+EWIEGA46WW/moc_Decodificador.cpp
+/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/DecodificadorResistencias_autogen/EWIEGA46WW/moc_Decodificador.cpp
+EWIEGA46WW/moc_MainWindow.cpp
+/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/DecodificadorResistencias_autogen/EWIEGA46WW/moc_MainWindow.cpp
+
+/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/main.cpp
+MainWindow.h
+/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/MainWindow.h
+QApplication
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
@@ -1118,6 +1160,10 @@ QtGui/qtguiglobal.h
 qapplication.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
+qdialog.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
 qmainwindow.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
@@ -1199,6 +1245,12 @@ QtGui/qguiapplication.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h

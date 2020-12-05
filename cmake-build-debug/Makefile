@@ -169,59 +169,59 @@ DecodificadorResistencias_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias_autogen.dir/build.make CMakeFiles/DecodificadorResistencias_autogen.dir/build
 .PHONY : DecodificadorResistencias_autogen/fast
 
-Cod.o: Cod.cpp.o
+Codificador.o: Codificador.cpp.o
 
-.PHONY : Cod.o
-
-# target to build an object file
-Cod.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/Cod.cpp.o
-.PHONY : Cod.cpp.o
-
-Cod.i: Cod.cpp.i
-
-.PHONY : Cod.i
-
-# target to preprocess a source file
-Cod.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/Cod.cpp.i
-.PHONY : Cod.cpp.i
-
-Cod.s: Cod.cpp.s
-
-.PHONY : Cod.s
-
-# target to generate assembly for a file
-Cod.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/Cod.cpp.s
-.PHONY : Cod.cpp.s
-
-Decod.o: Decod.cpp.o
-
-.PHONY : Decod.o
+.PHONY : Codificador.o
 
 # target to build an object file
-Decod.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/Decod.cpp.o
-.PHONY : Decod.cpp.o
+Codificador.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/Codificador.cpp.o
+.PHONY : Codificador.cpp.o
 
-Decod.i: Decod.cpp.i
+Codificador.i: Codificador.cpp.i
 
-.PHONY : Decod.i
+.PHONY : Codificador.i
 
 # target to preprocess a source file
-Decod.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/Decod.cpp.i
-.PHONY : Decod.cpp.i
+Codificador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/Codificador.cpp.i
+.PHONY : Codificador.cpp.i
 
-Decod.s: Decod.cpp.s
+Codificador.s: Codificador.cpp.s
 
-.PHONY : Decod.s
+.PHONY : Codificador.s
 
 # target to generate assembly for a file
-Decod.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/Decod.cpp.s
-.PHONY : Decod.cpp.s
+Codificador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/Codificador.cpp.s
+.PHONY : Codificador.cpp.s
+
+Decodificador.o: Decodificador.cpp.o
+
+.PHONY : Decodificador.o
+
+# target to build an object file
+Decodificador.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/Decodificador.cpp.o
+.PHONY : Decodificador.cpp.o
+
+Decodificador.i: Decodificador.cpp.i
+
+.PHONY : Decodificador.i
+
+# target to preprocess a source file
+Decodificador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/Decodificador.cpp.i
+.PHONY : Decodificador.cpp.i
+
+Decodificador.s: Decodificador.cpp.s
+
+.PHONY : Decodificador.s
+
+# target to generate assembly for a file
+Decodificador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/Decodificador.cpp.s
+.PHONY : Decodificador.cpp.s
 
 DecodificadorResistencias_autogen/mocs_compilation.o: DecodificadorResistencias_autogen/mocs_compilation.cpp.o
 
@@ -315,12 +315,12 @@ help:
 	@echo "... DecodificadorResistencias_autogen"
 	@echo "... KF5WidgetsAddons_QCH"
 	@echo "... DecodificadorResistencias"
-	@echo "... Cod.o"
-	@echo "... Cod.i"
-	@echo "... Cod.s"
-	@echo "... Decod.o"
-	@echo "... Decod.i"
-	@echo "... Decod.s"
+	@echo "... Codificador.o"
+	@echo "... Codificador.i"
+	@echo "... Codificador.s"
+	@echo "... Decodificador.o"
+	@echo "... Decodificador.i"
+	@echo "... Decodificador.s"
 	@echo "... DecodificadorResistencias_autogen/mocs_compilation.o"
 	@echo "... DecodificadorResistencias_autogen/mocs_compilation.i"
 	@echo "... DecodificadorResistencias_autogen/mocs_compilation.s"

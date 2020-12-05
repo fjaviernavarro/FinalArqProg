@@ -128,16 +128,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Cod.cpp">
+		<Unit filename="/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Codificador.cpp">
 			<Option target="DecodificadorResistencias"/>
 		</Unit>
-		<Unit filename="/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Cod.h">
+		<Unit filename="/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Codificador.h">
 			<Option target="DecodificadorResistencias"/>
 		</Unit>
-		<Unit filename="/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decod.cpp">
+		<Unit filename="/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decodificador.cpp">
 			<Option target="DecodificadorResistencias"/>
 		</Unit>
-		<Unit filename="/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decod.h">
+		<Unit filename="/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decodificador.h">
 			<Option target="DecodificadorResistencias"/>
 		</Unit>
 		<Unit filename="/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decodificador.ui">

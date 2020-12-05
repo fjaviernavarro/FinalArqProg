@@ -18,11 +18,11 @@ find_package(KF5WidgetsAddons REQUIRED)
 
 add_executable(DecodificadorResistencias
         main.cpp
-        Cod.cpp
-        Cod.h
+        Codificador.cpp
+        Codificador.h
         Decodificador.ui
-        Decod.cpp
-        Decod.h
+        Decodificador.cpp
+        Decodificador.h
         MainWindow.ui
         MainWindow.cpp
         MainWindow.h)

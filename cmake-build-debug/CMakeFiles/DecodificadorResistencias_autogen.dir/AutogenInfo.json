@@ -10,14 +10,14 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Cod.h",
+			"/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Codificador.h",
 			"MU",
-			"EWIEGA46WW/moc_Cod.cpp"
+			"EWIEGA46WW/moc_Codificador.cpp"
 		],
 		[
-			"/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decod.h",
+			"/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decodificador.h",
 			"MU",
-			"EWIEGA46WW/moc_Decod.cpp"
+			"EWIEGA46WW/moc_Decodificador.cpp"
 		],
 		[
 			"/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/MainWindow.h",
@@ -80,11 +80,11 @@
 	"SOURCES" : 
 	[
 		[
-			"/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Cod.cpp",
+			"/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Codificador.cpp",
 			"MU"
 		],
 		[
-			"/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decod.cpp",
+			"/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decodificador.cpp",
 			"MU"
 		],
 		[

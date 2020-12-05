@@ -22,7 +22,7 @@ private:
     Ui::MainWindow *ui;
 
 protected:
-
+    void mostrarDecodificador();
 };
 
 #endif //PROYECTORESISTENCIAS_MAINWINDOW_H

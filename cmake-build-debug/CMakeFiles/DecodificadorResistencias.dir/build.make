@@ -103,31 +103,31 @@ CMakeFiles/DecodificadorResistencias.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DecodificadorResistencias.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/main.cpp" -o CMakeFiles/DecodificadorResistencias.dir/main.cpp.s
 
-CMakeFiles/DecodificadorResistencias.dir/Cod.cpp.o: CMakeFiles/DecodificadorResistencias.dir/flags.make
-CMakeFiles/DecodificadorResistencias.dir/Cod.cpp.o: ../Cod.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DecodificadorResistencias.dir/Cod.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DecodificadorResistencias.dir/Cod.cpp.o -c "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Cod.cpp"
+CMakeFiles/DecodificadorResistencias.dir/Codificador.cpp.o: CMakeFiles/DecodificadorResistencias.dir/flags.make
+CMakeFiles/DecodificadorResistencias.dir/Codificador.cpp.o: ../Codificador.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DecodificadorResistencias.dir/Codificador.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DecodificadorResistencias.dir/Codificador.cpp.o -c "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Codificador.cpp"
 
-CMakeFiles/DecodificadorResistencias.dir/Cod.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DecodificadorResistencias.dir/Cod.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Cod.cpp" > CMakeFiles/DecodificadorResistencias.dir/Cod.cpp.i
+CMakeFiles/DecodificadorResistencias.dir/Codificador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DecodificadorResistencias.dir/Codificador.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Codificador.cpp" > CMakeFiles/DecodificadorResistencias.dir/Codificador.cpp.i
 
-CMakeFiles/DecodificadorResistencias.dir/Cod.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DecodificadorResistencias.dir/Cod.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Cod.cpp" -o CMakeFiles/DecodificadorResistencias.dir/Cod.cpp.s
+CMakeFiles/DecodificadorResistencias.dir/Codificador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DecodificadorResistencias.dir/Codificador.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Codificador.cpp" -o CMakeFiles/DecodificadorResistencias.dir/Codificador.cpp.s
 
-CMakeFiles/DecodificadorResistencias.dir/Decod.cpp.o: CMakeFiles/DecodificadorResistencias.dir/flags.make
-CMakeFiles/DecodificadorResistencias.dir/Decod.cpp.o: ../Decod.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DecodificadorResistencias.dir/Decod.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DecodificadorResistencias.dir/Decod.cpp.o -c "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decod.cpp"
+CMakeFiles/DecodificadorResistencias.dir/Decodificador.cpp.o: CMakeFiles/DecodificadorResistencias.dir/flags.make
+CMakeFiles/DecodificadorResistencias.dir/Decodificador.cpp.o: ../Decodificador.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DecodificadorResistencias.dir/Decodificador.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DecodificadorResistencias.dir/Decodificador.cpp.o -c "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decodificador.cpp"
 
-CMakeFiles/DecodificadorResistencias.dir/Decod.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DecodificadorResistencias.dir/Decod.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decod.cpp" > CMakeFiles/DecodificadorResistencias.dir/Decod.cpp.i
+CMakeFiles/DecodificadorResistencias.dir/Decodificador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DecodificadorResistencias.dir/Decodificador.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decodificador.cpp" > CMakeFiles/DecodificadorResistencias.dir/Decodificador.cpp.i
 
-CMakeFiles/DecodificadorResistencias.dir/Decod.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DecodificadorResistencias.dir/Decod.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decod.cpp" -o CMakeFiles/DecodificadorResistencias.dir/Decod.cpp.s
+CMakeFiles/DecodificadorResistencias.dir/Decodificador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DecodificadorResistencias.dir/Decodificador.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decodificador.cpp" -o CMakeFiles/DecodificadorResistencias.dir/Decodificador.cpp.s
 
 CMakeFiles/DecodificadorResistencias.dir/MainWindow.cpp.o: CMakeFiles/DecodificadorResistencias.dir/flags.make
 CMakeFiles/DecodificadorResistencias.dir/MainWindow.cpp.o: ../MainWindow.cpp
@@ -146,8 +146,8 @@ CMakeFiles/DecodificadorResistencias.dir/MainWindow.cpp.s: cmake_force
 DecodificadorResistencias_OBJECTS = \
 "CMakeFiles/DecodificadorResistencias.dir/DecodificadorResistencias_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/DecodificadorResistencias.dir/main.cpp.o" \
-"CMakeFiles/DecodificadorResistencias.dir/Cod.cpp.o" \
-"CMakeFiles/DecodificadorResistencias.dir/Decod.cpp.o" \
+"CMakeFiles/DecodificadorResistencias.dir/Codificador.cpp.o" \
+"CMakeFiles/DecodificadorResistencias.dir/Decodificador.cpp.o" \
 "CMakeFiles/DecodificadorResistencias.dir/MainWindow.cpp.o"
 
 # External object files for target DecodificadorResistencias
@@ -155,8 +155,8 @@ DecodificadorResistencias_EXTERNAL_OBJECTS =
 
 DecodificadorResistencias: CMakeFiles/DecodificadorResistencias.dir/DecodificadorResistencias_autogen/mocs_compilation.cpp.o
 DecodificadorResistencias: CMakeFiles/DecodificadorResistencias.dir/main.cpp.o
-DecodificadorResistencias: CMakeFiles/DecodificadorResistencias.dir/Cod.cpp.o
-DecodificadorResistencias: CMakeFiles/DecodificadorResistencias.dir/Decod.cpp.o
+DecodificadorResistencias: CMakeFiles/DecodificadorResistencias.dir/Codificador.cpp.o
+DecodificadorResistencias: CMakeFiles/DecodificadorResistencias.dir/Decodificador.cpp.o
 DecodificadorResistencias: CMakeFiles/DecodificadorResistencias.dir/MainWindow.cpp.o
 DecodificadorResistencias: CMakeFiles/DecodificadorResistencias.dir/build.make
 DecodificadorResistencias: /usr/lib/x86_64-linux-gnu/libKF5WidgetsAddons.so.5.68.0

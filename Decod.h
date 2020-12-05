@@ -1,8 +1,0 @@
-//
-// Created by javier on 05/12/20.
-//
-
-#ifndef PROYECTORESISTENCIAS_DECOD_H
-#define PROYECTORESISTENCIAS_DECOD_H
-
-#endif //PROYECTORESISTENCIAS_DECOD_H
