@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CodificadorDlg</class>
+ <widget class="QDialog" name="CodificadorDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>252</x>
+     <y>36</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_2">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>36</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Umpush</family>
+    </font>
+   </property>
+   <property name="placeholderText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="KColorButton" name="kcolorbutton5">
+   <property name="geometry">
+    <rect>
+     <x>199</x>
+     <y>140</y>
+     <width>33</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="botonHistorial1">
+   <property name="geometry">
+    <rect>
+     <x>252</x>
+     <y>76</y>
+     <width>91</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="botonHistorial3">
+   <property name="geometry">
+    <rect>
+     <x>252</x>
+     <y>136</y>
+     <width>91</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="KColorButton" name="kcolorbutton1">
+   <property name="geometry">
+    <rect>
+     <x>43</x>
+     <y>140</y>
+     <width>33</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="KColorButton" name="kcolorbutton3">
+   <property name="geometry">
+    <rect>
+     <x>121</x>
+     <y>140</y>
+     <width>33</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>52</x>
+     <y>76</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="botonHistorial2">
+   <property name="geometry">
+    <rect>
+     <x>252</x>
+     <y>106</y>
+     <width>91</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="KColorButton" name="kcolorbutton2">
+   <property name="geometry">
+    <rect>
+     <x>82</x>
+     <y>140</y>
+     <width>33</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="KColorButton" name="kcolorbutton4">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>140</y>
+     <width>33</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>KColorButton</class>
+   <extends>QPushButton</extends>
+   <header>kcolorbutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
