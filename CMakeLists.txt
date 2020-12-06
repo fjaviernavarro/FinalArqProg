@@ -27,8 +27,9 @@ add_executable(ProyectoResistencias
         MainWindow.cpp
         MainWindow.h
         Observador.cpp
-        Observador.h)
+        Observador.h Fachada.cpp Fachada.h)
 
 target_link_libraries(ProyectoResistencias Qt5::Widgets
         Qt${QT_VERSION_MAJOR}::Widgets
-        KF5::WidgetsAddons)
+        KF5::WidgetsAddons
+        )

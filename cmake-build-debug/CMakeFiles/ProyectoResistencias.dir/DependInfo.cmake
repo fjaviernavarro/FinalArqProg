@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Codificador.cpp" "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles/ProyectoResistencias.dir/Codificador.cpp.o"
   "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decodificador.cpp" "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles/ProyectoResistencias.dir/Decodificador.cpp.o"
+  "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Fachada.cpp" "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles/ProyectoResistencias.dir/Fachada.cpp.o"
   "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/MainWindow.cpp" "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles/ProyectoResistencias.dir/MainWindow.cpp.o"
   "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Observador.cpp" "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles/ProyectoResistencias.dir/Observador.cpp.o"
   "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/ProyectoResistencias_autogen/mocs_compilation.cpp" "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles/ProyectoResistencias.dir/ProyectoResistencias_autogen/mocs_compilation.cpp.o"

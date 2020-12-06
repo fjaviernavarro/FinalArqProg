@@ -143,6 +143,12 @@
 		<Unit filename="/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decodificador.ui">
 			<Option target="ProyectoResistencias"/>
 		</Unit>
+		<Unit filename="/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Fachada.cpp">
+			<Option target="ProyectoResistencias"/>
+		</Unit>
+		<Unit filename="/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Fachada.h">
+			<Option target="ProyectoResistencias"/>
+		</Unit>
 		<Unit filename="/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/MainWindow.cpp">
 			<Option target="ProyectoResistencias"/>
 		</Unit>

@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "ProyectoResistencias_autogen"
   "CMakeFiles/ProyectoResistencias.dir/Codificador.cpp.o"
   "CMakeFiles/ProyectoResistencias.dir/Decodificador.cpp.o"
+  "CMakeFiles/ProyectoResistencias.dir/Fachada.cpp.o"
   "CMakeFiles/ProyectoResistencias.dir/MainWindow.cpp.o"
   "CMakeFiles/ProyectoResistencias.dir/Observador.cpp.o"
   "CMakeFiles/ProyectoResistencias.dir/ProyectoResistencias_autogen/mocs_compilation.cpp.o"

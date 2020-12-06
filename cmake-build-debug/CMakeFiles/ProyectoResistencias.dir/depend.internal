@@ -7,6 +7,7 @@ CMakeFiles/ProyectoResistencias.dir/Codificador.cpp.o
  /usr/include/KF5/KWidgetsAddons/kcolorbutton.h
  /usr/include/KF5/KWidgetsAddons/kwidgetsaddons_export.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -57,6 +58,7 @@ CMakeFiles/ProyectoResistencias.dir/Codificador.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
@@ -81,16 +83,14 @@ CMakeFiles/ProyectoResistencias.dir/Codificador.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qabstracttextdocumentlayout.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QColor
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontdatabase.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qglyphrun.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
@@ -104,36 +104,48 @@ CMakeFiles/ProyectoResistencias.dir/Codificador.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qrawfont.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextdocument.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextlayout.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPlainTextEdit
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QRadioButton
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpinBox
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTextBrowser
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qplaintextedit.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qradiobutton.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qspinbox.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextbrowser.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
@@ -289,6 +301,9 @@ CMakeFiles/ProyectoResistencias.dir/Decodificador.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
  ProyectoResistencias_autogen/include/ui_Decodificador.h
+CMakeFiles/ProyectoResistencias.dir/Fachada.cpp.o
+ /home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Fachada.cpp
+ /home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Fachada.h
 CMakeFiles/ProyectoResistencias.dir/MainWindow.cpp.o
  /home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Codificador.h
  /home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decodificador.h

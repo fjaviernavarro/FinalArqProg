@@ -6,43 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Observador.cpp
-Observador.h
-/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Observador.h
-QString
+/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Codificador.cpp
+Codificador.h
+/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Codificador.h
+ui_Codificador.h
+/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/ui_Codificador.h
+QColor
 -
 iostream
 -
 math.h
 -
 
-/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Observador.h
-vector
--
-memory
--
-KColorCombo
--
-QTextBrowser
+/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Codificador.h
+QDialog
 -
 
-/usr/include/KF5/KWidgetsAddons/KColorCombo
-kcolorcombo.h
-/usr/include/KF5/KWidgetsAddons/kcolorcombo.h
-
-/usr/include/KF5/KWidgetsAddons/kcolorcombo.h
-QComboBox
--
-QList
--
+/usr/include/KF5/KWidgetsAddons/kcolorbutton.h
 kwidgetsaddons_export.h
+-
+QPushButton
 -
 
 /usr/include/KF5/KWidgetsAddons/kwidgetsaddons_export.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QString
-qstring.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+qvariant.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
 QtCore/qvariant.h
@@ -146,6 +136,20 @@ limits.h
 new
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h
+QtCore/qglobal.h
+-
+QtCore/qstring.h
+-
+QtCore/qobject.h
+-
+QtCore/qcoreevent.h
+-
+QtCore/qeventloop.h
+-
+QtCore/qscopedpointer.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
 QtCore/qnamespace.h
 -
@@ -192,6 +196,10 @@ list
 map
 -
 utility
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h
+QtCore/qobject.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
@@ -752,9 +760,9 @@ QtCore/qpoint.h
 QtCore/qglobal.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/QList
-qevent.h
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QColor
+qcolor.h
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
 QtGui/qtguiglobal.h
@@ -858,6 +866,22 @@ QtCore/qsharedpointer.h
 QtCore/qrect.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h
+QtGui/qtguiglobal.h
+-
+QtCore/qcoreapplication.h
+-
+QtGui/qwindowdefs.h
+-
+QtGui/qinputmethod.h
+-
+QtCore/qlocale.h
+-
+QtCore/qpoint.h
+-
+QtCore/qsize.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
 QtGui/qtguiglobal.h
 -
@@ -888,6 +912,12 @@ QtCore/qrect.h
 QtCore/qstring.h
 -
 QtCore/qstringlist.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h
+QtGui/qtguiglobal.h
+-
+QtCore/qobject.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
@@ -1138,13 +1168,43 @@ QtGui/qwindowdefs_win.h
 QtGui/qtguiglobal.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
+qapplication.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox
 qcombobox.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
+qdialog.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
+qpushbutton.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QRadioButton
+qradiobutton.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qradiobutton.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpinBox
+qspinbox.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qspinbox.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTextBrowser
 qtextbrowser.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextbrowser.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtGui/qicon.h
+-
+QtGui/qkeysequence.h
+-
+QtWidgets/qwidget.h
+-
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h
 QtWidgets/qtwidgetsglobal.h
@@ -1174,6 +1234,24 @@ QtWidgets/qwidget.h
 QtGui/qvalidator.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtCore/qcoreapplication.h
+-
+QtGui/qwindowdefs.h
+-
+QtCore/qpoint.h
+-
+QtCore/qsize.h
+-
+QtGui/qcursor.h
+-
+QtWidgets/qdesktopwidget.h
+-
+QtGui/qguiapplication.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -1188,10 +1266,34 @@ QtCore/qvariant.h
 QtGui/qvalidator.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractbutton.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qradiobutton.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractbutton.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h
@@ -1212,6 +1314,12 @@ QtCore/qalgorithms.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractslider.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qspinbox.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractspinbox.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h
@@ -1335,4 +1443,24 @@ QtGui/qkeysequence.h
 -
 QtGui/qevent.h
 -
+
+ProyectoResistencias_autogen/include/ui_Codificador.h
+QtCore/QVariant
+-
+QtWidgets/QApplication
+-
+QtWidgets/QComboBox
+-
+QtWidgets/QDialog
+-
+QtWidgets/QPushButton
+-
+QtWidgets/QRadioButton
+-
+QtWidgets/QSpinBox
+-
+QtWidgets/QTextBrowser
+-
+kcolorbutton.h
+ProyectoResistencias_autogen/include/kcolorbutton.h
 

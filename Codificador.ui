@@ -13,74 +13,43 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QTextBrowser" name="textBrowser">
-   <property name="geometry">
-    <rect>
-     <x>252</x>
-     <y>36</y>
-     <width>91</width>
-     <height>31</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QTextBrowser" name="textBrowser_2">
    <property name="geometry">
     <rect>
-     <x>42</x>
-     <y>36</y>
-     <width>201</width>
-     <height>31</height>
+     <x>50</x>
+     <y>10</y>
+     <width>261</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>Umpush</family>
+     <weight>75</weight>
+     <bold>true</bold>
     </font>
    </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
    <property name="placeholderText">
-    <string/>
+    <string>CODIFICADOR DE RESISTENCIAS</string>
    </property>
   </widget>
   <widget class="KColorButton" name="kcolorbutton5">
    <property name="geometry">
     <rect>
-     <x>199</x>
+     <x>239</x>
      <y>140</y>
      <width>33</width>
      <height>31</height>
     </rect>
    </property>
   </widget>
-  <widget class="QPushButton" name="botonHistorial1">
-   <property name="geometry">
-    <rect>
-     <x>252</x>
-     <y>76</y>
-     <width>91</width>
-     <height>34</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>PushButton</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="botonHistorial3">
-   <property name="geometry">
-    <rect>
-     <x>252</x>
-     <y>136</y>
-     <width>91</width>
-     <height>34</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>PushButton</string>
-   </property>
-  </widget>
   <widget class="KColorButton" name="kcolorbutton1">
    <property name="geometry">
     <rect>
-     <x>43</x>
+     <x>83</x>
      <y>140</y>
      <width>33</width>
      <height>31</height>
@@ -88,59 +57,117 @@
    </property>
   </widget>
   <widget class="KColorButton" name="kcolorbutton3">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
    <property name="geometry">
     <rect>
-     <x>121</x>
+     <x>161</x>
      <y>140</y>
      <width>33</width>
      <height>31</height>
     </rect>
    </property>
-  </widget>
-  <widget class="QPlainTextEdit" name="plainTextEdit">
-   <property name="geometry">
-    <rect>
-     <x>52</x>
-     <y>76</y>
-     <width>171</width>
-     <height>41</height>
-    </rect>
+   <property name="acceptDrops">
+    <bool>true</bool>
    </property>
-   <property name="autoFillBackground">
-    <bool>false</bool>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="botonHistorial2">
-   <property name="geometry">
-    <rect>
-     <x>252</x>
-     <y>106</y>
-     <width>91</width>
-     <height>34</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>PushButton</string>
+   <property name="color">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
    </property>
   </widget>
   <widget class="KColorButton" name="kcolorbutton2">
    <property name="geometry">
     <rect>
-     <x>82</x>
+     <x>122</x>
+     <y>140</y>
+     <width>33</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+  </widget>
+  <widget class="KColorButton" name="kcolorbutton4">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
      <y>140</y>
      <width>33</width>
      <height>31</height>
     </rect>
    </property>
   </widget>
-  <widget class="KColorButton" name="kcolorbutton4">
+  <widget class="QRadioButton" name="radio4B">
    <property name="geometry">
     <rect>
-     <x>160</x>
-     <y>140</y>
-     <width>33</width>
-     <height>31</height>
+     <x>50</x>
+     <y>60</y>
+     <width>105</width>
+     <height>22</height>
     </rect>
+   </property>
+   <property name="text">
+    <string>4 Bandas</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radio5B">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>60</y>
+     <width>105</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>5 Bandas</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>90</y>
+     <width>71</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="botonCodificar">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>90</y>
+     <width>41</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="valorResistencia">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>90</y>
+     <width>121</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>999999999</number>
+   </property>
+   <property name="singleStep">
+    <number>1000</number>
    </property>
   </widget>
  </widget>

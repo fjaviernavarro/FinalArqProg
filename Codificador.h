@@ -20,6 +20,16 @@ public:
 
 private:
     Ui::CodificadorDlg *ui;
+    bool using5bands = true;
+
+    void bands_changed();
+    int noDigitos(int);
+    void Codificar();
+    void ColoresB1(int);
+    void ColoresB2(int);
+    void ColoresB3(int);
+    void Tolerancia4B();
+    void Tolerancia5B();
 };
 
 #endif //PROYECTORESISTENCIAS_COD_H

@@ -223,6 +223,33 @@ Decodificador.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/Decodificador.cpp.s
 .PHONY : Decodificador.cpp.s
 
+Fachada.o: Fachada.cpp.o
+
+.PHONY : Fachada.o
+
+# target to build an object file
+Fachada.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/Fachada.cpp.o
+.PHONY : Fachada.cpp.o
+
+Fachada.i: Fachada.cpp.i
+
+.PHONY : Fachada.i
+
+# target to preprocess a source file
+Fachada.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/Fachada.cpp.i
+.PHONY : Fachada.cpp.i
+
+Fachada.s: Fachada.cpp.s
+
+.PHONY : Fachada.s
+
+# target to generate assembly for a file
+Fachada.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/Fachada.cpp.s
+.PHONY : Fachada.cpp.s
+
 MainWindow.o: MainWindow.cpp.o
 
 .PHONY : MainWindow.o
@@ -348,6 +375,9 @@ help:
 	@echo "... Decodificador.o"
 	@echo "... Decodificador.i"
 	@echo "... Decodificador.s"
+	@echo "... Fachada.o"
+	@echo "... Fachada.i"
+	@echo "... Fachada.s"
 	@echo "... MainWindow.o"
 	@echo "... MainWindow.i"
 	@echo "... MainWindow.s"

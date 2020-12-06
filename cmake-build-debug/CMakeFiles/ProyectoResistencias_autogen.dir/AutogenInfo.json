@@ -20,6 +20,11 @@
 			"EWIEGA46WW/moc_Decodificador.cpp"
 		],
 		[
+			"/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Fachada.h",
+			"MU",
+			"EWIEGA46WW/moc_Fachada.cpp"
+		],
+		[
 			"/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/MainWindow.h",
 			"MU",
 			"EWIEGA46WW/moc_MainWindow.cpp"
@@ -90,6 +95,10 @@
 		],
 		[
 			"/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decodificador.cpp",
+			"MU"
+		],
+		[
+			"/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Fachada.cpp",
 			"MU"
 		],
 		[
