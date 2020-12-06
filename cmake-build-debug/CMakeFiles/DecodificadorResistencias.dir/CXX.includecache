@@ -11,10 +11,26 @@ Decodificador.h
 /home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decodificador.h
 ui_Decodificador.h
 /home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/ui_Decodificador.h
+Observador.h
+/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Observador.h
 
 /home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decodificador.h
 QDialog
 -
+
+/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Observador.h
+vector
+-
+memory
+-
+KColorCombo
+-
+QTextBrowser
+-
+
+/usr/include/KF5/KWidgetsAddons/KColorCombo
+kcolorcombo.h
+/usr/include/KF5/KWidgetsAddons/kcolorcombo.h
 
 /usr/include/KF5/KWidgetsAddons/kcolorcombo.h
 QComboBox
@@ -974,6 +990,14 @@ QtGui/qcolor.h
 QtGui/qbrush.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h
+QtGui/qtguiglobal.h
+-
+QtGui/qcolor.h
+-
+QtGui/qbrush.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
 QtGui/qtguiglobal.h
 -
@@ -1028,6 +1052,62 @@ QtCore/qprocessordetection.h
 QtGui/qtguiglobal.h
 -
 QtCore/qprocessordetection.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h
+QtGui/qtguiglobal.h
+-
+QtCore/qstring.h
+-
+QtCore/qshareddata.h
+-
+QtGui/qtextformat.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextdocument.h
+QtGui/qtguiglobal.h
+-
+QtCore/qobject.h
+-
+QtCore/qsize.h
+-
+QtCore/qrect.h
+-
+QtCore/qvariant.h
+-
+QtGui/qfont.h
+-
+QtCore/qurl.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h
+QtGui/qtguiglobal.h
+-
+QtGui/qcolor.h
+-
+QtGui/qfont.h
+-
+QtCore/qshareddata.h
+-
+QtCore/qvector.h
+-
+QtCore/qvariant.h
+-
+QtGui/qpen.h
+-
+QtGui/qbrush.h
+-
+QtGui/qtextoption.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
+QtGui/qtguiglobal.h
+-
+QtCore/qnamespace.h
+-
+QtCore/qchar.h
+-
+QtCore/qmetatype.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
@@ -1112,13 +1192,13 @@ qcombobox.h
 qdialog.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLCDNumber
-qlcdnumber.h
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlcdnumber.h
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QRadioButton
 qradiobutton.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qradiobutton.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTextBrowser
+qtextbrowser.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextbrowser.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
 QtWidgets/qtwidgetsglobal.h
@@ -1136,6 +1216,12 @@ QtWidgets/qtwidgetsglobal.h
 QtCore/qobject.h
 -
 QtWidgets/qstyleoption.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qframe.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h
@@ -1200,12 +1286,6 @@ QtWidgets/qwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlcdnumber.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qframe.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qradiobutton.h
@@ -1294,6 +1374,28 @@ QtWidgets/qwidget.h
 QtGui/qicon.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextbrowser.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qtextedit.h
+-
+QtCore/qurl.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractscrollarea.h
+-
+QtGui/qtextdocument.h
+-
+QtGui/qtextoption.h
+-
+QtGui/qtextcursor.h
+-
+QtGui/qtextformat.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
@@ -1341,9 +1443,9 @@ QtWidgets/QApplication
 -
 QtWidgets/QDialog
 -
-QtWidgets/QLCDNumber
--
 QtWidgets/QRadioButton
+-
+QtWidgets/QTextBrowser
 -
 kcolorcombo.h
 DecodificadorResistencias_autogen/include/kcolorcombo.h

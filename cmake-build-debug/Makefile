@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = "/home/javier/Escritorio/Arquitecturas Programables/ProyectoR
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/137/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -97,6 +86,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/snap/clion/137/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named DecodificadorResistencias
+# Target rules for targets named ProyectoResistencias
 
 # Build rule for target.
-DecodificadorResistencias: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DecodificadorResistencias
-.PHONY : DecodificadorResistencias
+ProyectoResistencias: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProyectoResistencias
+.PHONY : ProyectoResistencias
 
 # fast build rule for target.
-DecodificadorResistencias/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/build
-.PHONY : DecodificadorResistencias/fast
+ProyectoResistencias/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/build
+.PHONY : ProyectoResistencias/fast
 
 #=============================================================================
 # Target rules for targets named KF5WidgetsAddons_QCH
@@ -157,17 +157,17 @@ KF5WidgetsAddons_QCH/fast:
 .PHONY : KF5WidgetsAddons_QCH/fast
 
 #=============================================================================
-# Target rules for targets named DecodificadorResistencias_autogen
+# Target rules for targets named ProyectoResistencias_autogen
 
 # Build rule for target.
-DecodificadorResistencias_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DecodificadorResistencias_autogen
-.PHONY : DecodificadorResistencias_autogen
+ProyectoResistencias_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProyectoResistencias_autogen
+.PHONY : ProyectoResistencias_autogen
 
 # fast build rule for target.
-DecodificadorResistencias_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias_autogen.dir/build.make CMakeFiles/DecodificadorResistencias_autogen.dir/build
-.PHONY : DecodificadorResistencias_autogen/fast
+ProyectoResistencias_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias_autogen.dir/build.make CMakeFiles/ProyectoResistencias_autogen.dir/build
+.PHONY : ProyectoResistencias_autogen/fast
 
 Codificador.o: Codificador.cpp.o
 
@@ -175,7 +175,7 @@ Codificador.o: Codificador.cpp.o
 
 # target to build an object file
 Codificador.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/Codificador.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/Codificador.cpp.o
 .PHONY : Codificador.cpp.o
 
 Codificador.i: Codificador.cpp.i
@@ -184,7 +184,7 @@ Codificador.i: Codificador.cpp.i
 
 # target to preprocess a source file
 Codificador.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/Codificador.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/Codificador.cpp.i
 .PHONY : Codificador.cpp.i
 
 Codificador.s: Codificador.cpp.s
@@ -193,7 +193,7 @@ Codificador.s: Codificador.cpp.s
 
 # target to generate assembly for a file
 Codificador.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/Codificador.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/Codificador.cpp.s
 .PHONY : Codificador.cpp.s
 
 Decodificador.o: Decodificador.cpp.o
@@ -202,7 +202,7 @@ Decodificador.o: Decodificador.cpp.o
 
 # target to build an object file
 Decodificador.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/Decodificador.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/Decodificador.cpp.o
 .PHONY : Decodificador.cpp.o
 
 Decodificador.i: Decodificador.cpp.i
@@ -211,7 +211,7 @@ Decodificador.i: Decodificador.cpp.i
 
 # target to preprocess a source file
 Decodificador.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/Decodificador.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/Decodificador.cpp.i
 .PHONY : Decodificador.cpp.i
 
 Decodificador.s: Decodificador.cpp.s
@@ -220,35 +220,8 @@ Decodificador.s: Decodificador.cpp.s
 
 # target to generate assembly for a file
 Decodificador.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/Decodificador.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/Decodificador.cpp.s
 .PHONY : Decodificador.cpp.s
-
-DecodificadorResistencias_autogen/mocs_compilation.o: DecodificadorResistencias_autogen/mocs_compilation.cpp.o
-
-.PHONY : DecodificadorResistencias_autogen/mocs_compilation.o
-
-# target to build an object file
-DecodificadorResistencias_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/DecodificadorResistencias_autogen/mocs_compilation.cpp.o
-.PHONY : DecodificadorResistencias_autogen/mocs_compilation.cpp.o
-
-DecodificadorResistencias_autogen/mocs_compilation.i: DecodificadorResistencias_autogen/mocs_compilation.cpp.i
-
-.PHONY : DecodificadorResistencias_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-DecodificadorResistencias_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/DecodificadorResistencias_autogen/mocs_compilation.cpp.i
-.PHONY : DecodificadorResistencias_autogen/mocs_compilation.cpp.i
-
-DecodificadorResistencias_autogen/mocs_compilation.s: DecodificadorResistencias_autogen/mocs_compilation.cpp.s
-
-.PHONY : DecodificadorResistencias_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-DecodificadorResistencias_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/DecodificadorResistencias_autogen/mocs_compilation.cpp.s
-.PHONY : DecodificadorResistencias_autogen/mocs_compilation.cpp.s
 
 MainWindow.o: MainWindow.cpp.o
 
@@ -256,7 +229,7 @@ MainWindow.o: MainWindow.cpp.o
 
 # target to build an object file
 MainWindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/MainWindow.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/MainWindow.cpp.o
 .PHONY : MainWindow.cpp.o
 
 MainWindow.i: MainWindow.cpp.i
@@ -265,7 +238,7 @@ MainWindow.i: MainWindow.cpp.i
 
 # target to preprocess a source file
 MainWindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/MainWindow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/MainWindow.cpp.i
 .PHONY : MainWindow.cpp.i
 
 MainWindow.s: MainWindow.cpp.s
@@ -274,8 +247,62 @@ MainWindow.s: MainWindow.cpp.s
 
 # target to generate assembly for a file
 MainWindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/MainWindow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/MainWindow.cpp.s
 .PHONY : MainWindow.cpp.s
+
+Observador.o: Observador.cpp.o
+
+.PHONY : Observador.o
+
+# target to build an object file
+Observador.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/Observador.cpp.o
+.PHONY : Observador.cpp.o
+
+Observador.i: Observador.cpp.i
+
+.PHONY : Observador.i
+
+# target to preprocess a source file
+Observador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/Observador.cpp.i
+.PHONY : Observador.cpp.i
+
+Observador.s: Observador.cpp.s
+
+.PHONY : Observador.s
+
+# target to generate assembly for a file
+Observador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/Observador.cpp.s
+.PHONY : Observador.cpp.s
+
+ProyectoResistencias_autogen/mocs_compilation.o: ProyectoResistencias_autogen/mocs_compilation.cpp.o
+
+.PHONY : ProyectoResistencias_autogen/mocs_compilation.o
+
+# target to build an object file
+ProyectoResistencias_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/ProyectoResistencias_autogen/mocs_compilation.cpp.o
+.PHONY : ProyectoResistencias_autogen/mocs_compilation.cpp.o
+
+ProyectoResistencias_autogen/mocs_compilation.i: ProyectoResistencias_autogen/mocs_compilation.cpp.i
+
+.PHONY : ProyectoResistencias_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+ProyectoResistencias_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/ProyectoResistencias_autogen/mocs_compilation.cpp.i
+.PHONY : ProyectoResistencias_autogen/mocs_compilation.cpp.i
+
+ProyectoResistencias_autogen/mocs_compilation.s: ProyectoResistencias_autogen/mocs_compilation.cpp.s
+
+.PHONY : ProyectoResistencias_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+ProyectoResistencias_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/ProyectoResistencias_autogen/mocs_compilation.cpp.s
+.PHONY : ProyectoResistencias_autogen/mocs_compilation.cpp.s
 
 main.o: main.cpp.o
 
@@ -283,7 +310,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -292,7 +319,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -301,7 +328,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecodificadorResistencias.dir/build.make CMakeFiles/DecodificadorResistencias.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectoResistencias.dir/build.make CMakeFiles/ProyectoResistencias.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -312,21 +339,24 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... DecodificadorResistencias_autogen"
 	@echo "... KF5WidgetsAddons_QCH"
-	@echo "... DecodificadorResistencias"
+	@echo "... ProyectoResistencias_autogen"
+	@echo "... ProyectoResistencias"
 	@echo "... Codificador.o"
 	@echo "... Codificador.i"
 	@echo "... Codificador.s"
 	@echo "... Decodificador.o"
 	@echo "... Decodificador.i"
 	@echo "... Decodificador.s"
-	@echo "... DecodificadorResistencias_autogen/mocs_compilation.o"
-	@echo "... DecodificadorResistencias_autogen/mocs_compilation.i"
-	@echo "... DecodificadorResistencias_autogen/mocs_compilation.s"
 	@echo "... MainWindow.o"
 	@echo "... MainWindow.i"
 	@echo "... MainWindow.s"
+	@echo "... Observador.o"
+	@echo "... Observador.i"
+	@echo "... Observador.s"
+	@echo "... ProyectoResistencias_autogen/mocs_compilation.o"
+	@echo "... ProyectoResistencias_autogen/mocs_compilation.i"
+	@echo "... ProyectoResistencias_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

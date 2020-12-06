@@ -1,5 +1,5 @@
-/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles/DecodificadorResistencias.dir
+/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles/ProyectoResistencias.dir
 /home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles/KF5WidgetsAddons_QCH.dir
-/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles/DecodificadorResistencias_autogen.dir
+/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles/ProyectoResistencias_autogen.dir

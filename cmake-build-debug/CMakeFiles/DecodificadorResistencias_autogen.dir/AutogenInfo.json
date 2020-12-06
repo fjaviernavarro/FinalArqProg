@@ -23,6 +23,11 @@
 			"/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/MainWindow.h",
 			"MU",
 			"EWIEGA46WW/moc_MainWindow.cpp"
+		],
+		[
+			"/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Observador.h",
+			"MU",
+			"EWIEGA46WW/moc_Observador.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -89,6 +94,10 @@
 		],
 		[
 			"/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/MainWindow.cpp",
+			"MU"
+		],
+		[
+			"/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Observador.cpp",
 			"MU"
 		],
 		[

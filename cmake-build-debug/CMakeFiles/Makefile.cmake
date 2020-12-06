@@ -92,13 +92,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/DecodificadorResistencias_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/ProyectoResistencias_autogen.dir/AutogenInfo.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/DecodificadorResistencias.dir/DependInfo.cmake"
+  "CMakeFiles/ProyectoResistencias.dir/DependInfo.cmake"
   "CMakeFiles/KF5WidgetsAddons_QCH.dir/DependInfo.cmake"
-  "CMakeFiles/DecodificadorResistencias_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/ProyectoResistencias_autogen.dir/DependInfo.cmake"
   )

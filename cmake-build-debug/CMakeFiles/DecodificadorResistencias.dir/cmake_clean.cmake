@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/DecodificadorResistencias.dir/Decodificador.cpp.o"
   "CMakeFiles/DecodificadorResistencias.dir/DecodificadorResistencias_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/DecodificadorResistencias.dir/MainWindow.cpp.o"
+  "CMakeFiles/DecodificadorResistencias.dir/Observador.cpp.o"
   "CMakeFiles/DecodificadorResistencias.dir/main.cpp.o"
   "DecodificadorResistencias"
   "DecodificadorResistencias.pdb"

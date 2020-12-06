@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Decodificador.cpp" "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles/DecodificadorResistencias.dir/Decodificador.cpp.o"
   "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/DecodificadorResistencias_autogen/mocs_compilation.cpp" "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles/DecodificadorResistencias.dir/DecodificadorResistencias_autogen/mocs_compilation.cpp.o"
   "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/MainWindow.cpp" "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles/DecodificadorResistencias.dir/MainWindow.cpp.o"
+  "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/Observador.cpp" "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles/DecodificadorResistencias.dir/Observador.cpp.o"
   "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/main.cpp" "/home/javier/Escritorio/Arquitecturas Programables/ProyectoResistencias/cmake-build-debug/CMakeFiles/DecodificadorResistencias.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

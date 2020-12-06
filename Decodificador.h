@@ -24,7 +24,7 @@ private:
 
     void initialize_colorcombos();
     void bands_changed();
-
+    void notify();
 };
 
 #endif //PROYECTORESISTENCIAS_DECOD_H

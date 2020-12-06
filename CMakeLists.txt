@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.17)
-project(DecodificadorResistencias)
+project(ProyectoResistencias)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -16,7 +16,7 @@ find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets LinguistTools REQUIRED)
 
 find_package(KF5WidgetsAddons REQUIRED)
 
-add_executable(DecodificadorResistencias
+add_executable(ProyectoResistencias
         main.cpp
         Codificador.cpp
         Codificador.h
@@ -25,8 +25,10 @@ add_executable(DecodificadorResistencias
         Decodificador.h
         MainWindow.ui
         MainWindow.cpp
-        MainWindow.h)
+        MainWindow.h
+        Observador.cpp
+        Observador.h)
 
-target_link_libraries(DecodificadorResistencias Qt5::Widgets
+target_link_libraries(ProyectoResistencias Qt5::Widgets
         Qt${QT_VERSION_MAJOR}::Widgets
         KF5::WidgetsAddons)
